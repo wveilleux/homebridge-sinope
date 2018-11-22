@@ -10,7 +10,7 @@
             "platform": "Sinope",
             "username" : "your-username@email.com",
 	          "password" : "your-password",
-            "login_url": "https://neviweb.com/api/login"
+            "login_url": "https://preprod-sws.neviweb.com/api/login"
         }
     ],
     "description": "HomeBridge sinope thermostats for Homekit",
