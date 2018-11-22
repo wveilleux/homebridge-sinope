@@ -1,7 +1,7 @@
 const { httpAction, sessionOption } = require('./request');
 const R = require('ramda');
 
-const uri = [ 'https://neviweb.com/api' ];
+const uri = [ 'https://preprod-sws.neviweb.com/api' ];
 const urlComposer = R.compose(R.join('/'), R.concat);
 
 function request(params) {
